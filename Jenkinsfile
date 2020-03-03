@@ -3,5 +3,6 @@ node {
    stage 'Checkout'
 
    // Checkout code from repository
-   checkout master
+   checkout scm
+
 }
