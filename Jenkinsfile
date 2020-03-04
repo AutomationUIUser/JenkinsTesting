@@ -1,4 +1,11 @@
 node {
+   
+   properties([
+     parameters([
+       string(name: 'OH_ID', defaultValue: 'default val')
+     ])
+   ])
+   
    // Mark the code checkout 'stage'....
    stage 'Checkout'
 
